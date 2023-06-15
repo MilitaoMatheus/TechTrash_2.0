@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TechTrash</string>
+    <string name="app_btn1">ENTRAR</string>
 </resources>
