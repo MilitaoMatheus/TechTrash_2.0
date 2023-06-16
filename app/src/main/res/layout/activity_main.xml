@@ -30,9 +30,10 @@
         android:layout_marginEnd="-300dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/idTela2"
+        app:layout_constraintHorizontal_bias="0.675"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/idTela2"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.986"
         app:srcCompat="@drawable/design_sem_nome" />
 
     <TextView
@@ -57,17 +58,20 @@
         android:id="@+id/button"
         android:layout_width="125dp"
         android:layout_height="59dp"
-        android:layout_marginStart="-280dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="-300dp"
+        android:layout_marginTop="-900dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="-100dp"
         android:backgroundTint="@color/green"
         android:text="@string/app_btn1"
         android:textColor="@color/white"
         android:textColorHighlight="@color/green"
         android:textColorHint="@color/green"
         android:textColorLink="#4CAF50"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/idImage"
-        app:strokeColor="#4CAF50"
-        tools:layout_editor_absoluteY="317dp" />
+        app:layout_constraintTop_toBottomOf="@+id/idImage"
+        app:strokeColor="#4CAF50" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

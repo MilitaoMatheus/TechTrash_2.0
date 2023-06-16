@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">TechTrash</string>
     <string name="app_btn1">ENTRAR</string>
+    <string name="app_menu">MENU</string>
+    <string name="app_textomenu">Selecione o assunto que mais te interessar sobre o lixo eletrônico!</string>
+    <string name="app_oquee">O que são?</string>
+    <string name="app_ondeimpac">Onde impactam?</string>
+    <string name="app_comoimpac">Como impactam?</string>
+    <string name="app_descarte">Como descartar e reutilizar?</string>
+    <string name="logoreciclagem"/>
 </resources>
