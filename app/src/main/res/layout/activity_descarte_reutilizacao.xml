@@ -2,27 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frmlugImpac"
+    android:id="@+id/frmdescarte"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/green"
-    tools:context=".Tela_OndeImapc">
-
-    <ImageView
-        android:id="@+id/imglogowhite3"
-        android:layout_width="103dp"
-        android:layout_height="76dp"
-        android:layout_marginStart="310dp"
-        android:layout_marginTop="651dp"
-        android:layout_marginBottom="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/reciclagem1" />
+    tools:context=".DescarteReutilizacao">
 
     <ImageButton
-        android:id="@+id/btnvoltar2"
+        android:id="@+id/btnvoltar5"
         android:layout_width="107dp"
         android:layout_height="73dp"
         android:layout_marginTop="654dp"
@@ -33,9 +20,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/home"/>
+        app:srcCompat="@drawable/home" />
+
     <View
-        android:id="@+id/telalugimp"
+        android:id="@+id/teladescarte"
         android:layout_width="415dp"
         android:layout_height="565dp"
         android:layout_marginTop="83dp"
@@ -46,22 +34,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/txtlugimpac"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="152dp"
-        android:layout_marginTop="37dp"
-        android:layout_marginEnd="153dp"
-        android:layout_marginBottom="675dp"
-        android:text="@string/app_ondeimpac"
-        android:textColor="@color/white"
-        android:textSize="50sp"
+    <ImageView
+        android:id="@+id/imglogowhite5"
+        android:layout_width="103dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="311dp"
+        android:layout_marginTop="654dp"
+        android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645" />
+        app:srcCompat="@drawable/reciclagem1" />
 
+    <TextView
+        android:id="@+id/txtreutilizadescarte"
+        android:layout_width="427dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="605dp"
+        android:text="@string/descarte_reutiizcao"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,5 +7,8 @@
     <string name="app_ondeimpac">Onde impactam?</string>
     <string name="app_comoimpac">Como impactam?</string>
     <string name="app_descarte">Como descartar e reutilizar?</string>
-    <string name="logoreciclagem"/>
+    <string name="logoreciclagem" />
+    <string name="app_voltar">Voltar</string>
+    <string name="descarte_reutiizcao">Descarte e Reutilização</string>>
+
 </resources>

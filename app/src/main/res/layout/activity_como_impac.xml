@@ -2,14 +2,15 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frmlugImpac"
+    android:id="@+id/idComoImpac"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/green"
-    tools:context=".Tela_OndeImapc">
+    android:labelFor="@id/frmmenu"
+    tools:context="@string/app_comoimpac">
 
     <ImageView
-        android:id="@+id/imglogowhite3"
+        android:id="@+id/imglogowhite4"
         android:layout_width="103dp"
         android:layout_height="76dp"
         android:layout_marginStart="310dp"
@@ -22,7 +23,7 @@
         app:srcCompat="@drawable/reciclagem1" />
 
     <ImageButton
-        android:id="@+id/btnvoltar2"
+        android:id="@+id/btnvoltar4"
         android:layout_width="107dp"
         android:layout_height="73dp"
         android:layout_marginTop="654dp"
@@ -33,35 +34,37 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/home"/>
+        app:srcCompat="@drawable/home" />
+
     <View
-        android:id="@+id/telalugimp"
+        android:id="@+id/telacomimp"
         android:layout_width="415dp"
         android:layout_height="565dp"
-        android:layout_marginTop="83dp"
-        android:layout_marginBottom="83dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="80dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/txtlugimpac"
+        android:id="@+id/txtcomoimp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="152dp"
-        android:layout_marginTop="37dp"
-        android:layout_marginEnd="153dp"
-        android:layout_marginBottom="675dp"
-        android:text="@string/app_ondeimpac"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="658dp"
+        android:text="@string/app_comoimpac"
         android:textColor="@color/white"
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

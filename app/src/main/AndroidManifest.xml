@@ -13,6 +13,12 @@
         android:theme="@style/Theme.TechTrash"
         tools:targetApi="31">
         <activity
+            android:name=".DescarteReutilizacao"
+            android:exported="false" />
+        <activity
+            android:name=".ComoImpac"
+            android:exported="false" />
+        <activity
             android:name=".Tela_OndeImapc"
             android:exported="false" />
         <activity
