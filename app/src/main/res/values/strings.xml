@@ -9,6 +9,8 @@
     <string name="app_descarte">Como descartar e reutilizar?</string>
     <string name="logoreciclagem" />
     <string name="app_voltar">Voltar</string>
-    <string name="descarte_reutiizcao">Descarte e Reutilização</string>>
-
+    <string name="descarte_reutiizcao">Descarte e Reutilização</string>
+    <string name="app_ir">Ir</string>
+    <string name="info_Oque">O lixo eletronico se trata de todo lixo como geladeiras e freezers, microondas, cafeteiras, ventiladores, televisões, celulares, entre outros, Ou seja, todo tipo de lixo derivado de aparelhos eletrônicos, também podendo ser chamado de "eletrolixo". </string>
+    <string name="info_oque1">Lixo eletrônico é todo e qualquer lixo que se deriva de eletrônicos: geladeiras e freezers, microondas, cafeteiras, ventiladores, televisões, celulares, entre outros</string>
 </resources>

@@ -29,11 +29,12 @@
         android:layout_marginEnd="304dp"
         android:layout_marginBottom="4dp"
         android:backgroundTint="@color/green"
+        android:onClick="voltar1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/home"/>
+        app:srcCompat="@drawable/home" />
     <View
         android:id="@+id/telalugimp"
         android:layout_width="415dp"

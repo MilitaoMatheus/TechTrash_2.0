@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/green"
     android:backgroundTint="@color/green"
+    android:onClick="transicao"
     tools:context=".MainActivity">
 
     <View
@@ -64,6 +65,7 @@
         android:layout_marginEnd="133dp"
         android:layout_marginBottom="357dp"
         android:backgroundTint="@color/green"
+        android:onClick="transicao"
         android:text="@string/app_btn1"
         android:textColor="@color/white"
         android:textColorHighlight="@color/green"
