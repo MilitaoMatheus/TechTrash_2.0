@@ -63,6 +63,79 @@
         app:layout_constraintVertical_bias="0.059"
         app:srcCompat="@drawable/reciclagem1" />
 
+    <Button
+        android:id="@+id/btnir1"
+        android:layout_width="107dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="464dp"
+        android:backgroundTint="@color/green"
+        android:onClick="transicao1"
+        android:text="@string/app_ir1"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtoquee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="246dp"
+        android:layout_marginBottom="469dp"
+        android:text="@string/app_oquee"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnir3"
+        android:layout_width="108dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="402dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="270dp"
+        android:backgroundTint="@color/green"
+        android:onClick="transicao3"
+        android:text="@string/app_ir3"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnir5"
+        android:layout_width="108dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="581dp"
+        android:layout_marginEnd="283dp"
+        android:layout_marginBottom="93dp"
+        android:backgroundTint="@color/green"
+        android:onClick="transicao4"
+        android:text="@string/app_ir4"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
     <TextView
         android:id="@+id/idtxtmenu"
         android:layout_width="wrap_content"
@@ -97,21 +170,24 @@
         app:layout_constraintVertical_bias="0.45999998" />
 
     <TextView
-        android:id="@+id/txtoquee"
+        android:id="@+id/txtoptions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="222dp"
-        android:layout_marginEnd="246dp"
-        android:layout_marginBottom="469dp"
-        android:text="@string/app_oquee"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="521dp"
+        android:text="@string/app_textomenu"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
 
     <TextView
         android:id="@+id/txtdescarte"
@@ -164,81 +240,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.381" />
-
-    <TextView
-        android:id="@+id/txtoptions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginBottom="521dp"
-        android:text="@string/app_textomenu"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textColorHighlight="@color/black"
-        android:textColorHint="@color/black"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.04" />
-
-    <Button
-        android:id="@+id/btnir1"
-        android:layout_width="107dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="202dp"
-        android:layout_marginTop="210dp"
-        android:layout_marginEnd="102dp"
-        android:layout_marginBottom="464dp"
-        android:backgroundTint="@color/green"
-        android:onClick="transicao1"
-        android:text="@string/app_ir1"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnir3"
-        android:layout_width="108dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="286dp"
-        android:layout_marginTop="402dp"
-        android:layout_marginEnd="17dp"
-        android:layout_marginBottom="270dp"
-        android:backgroundTint="@color/green"
-        android:onClick="transicao3"
-        android:text="@string/app_ir3"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnir5"
-        android:layout_width="108dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="581dp"
-        android:layout_marginEnd="283dp"
-        android:layout_marginBottom="93dp"
-        android:backgroundTint="@color/green"
-        android:onClick="transicao4"
-        android:text="@string/app_ir4"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

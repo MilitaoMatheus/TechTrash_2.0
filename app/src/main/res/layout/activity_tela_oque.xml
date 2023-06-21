@@ -10,15 +10,17 @@
 
     <View
         android:id="@+id/telaoque"
-        android:layout_width="416dp"
-        android:layout_height="662dp"
+        android:layout_width="429dp"
+        android:layout_height="568dp"
         android:layout_marginTop="87dp"
         android:layout_marginBottom="79dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imglogowhite2"
@@ -51,7 +53,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056" />
+        app:layout_constraintVertical_bias="0.193" />
 
     <ImageButton
         android:id="@+id/btnvoltar"
