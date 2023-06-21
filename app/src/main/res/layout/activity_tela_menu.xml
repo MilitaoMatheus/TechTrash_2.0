@@ -19,8 +19,8 @@
 
     <View
         android:id="@+id/telamenu"
-        android:layout_width="415dp"
-        android:layout_height="565dp"
+        android:layout_width="406dp"
+        android:layout_height="605dp"
         android:layout_marginTop="89dp"
         android:layout_marginBottom="76dp"
         android:background="@color/white"
@@ -60,7 +60,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.059"
+        app:layout_constraintVertical_bias="0.761"
         app:srcCompat="@drawable/reciclagem1" />
 
     <Button
