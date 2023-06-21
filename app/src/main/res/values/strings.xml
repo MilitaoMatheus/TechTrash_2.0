@@ -11,6 +11,12 @@
     <string name="app_voltar">Voltar</string>
     <string name="descarte_reutiizcao">Descarte e Reutilização</string>
     <string name="app_ir">Ir</string>
-    <string name="info_Oque">O lixo eletronico se trata de todo lixo como geladeiras e freezers, microondas, cafeteiras, ventiladores, televisões, celulares, entre outros, Ou seja, todo tipo de lixo derivado de aparelhos eletrônicos, também podendo ser chamado de "eletrolixo". </string>
     <string name="info_oque1">Lixo eletrônico é todo e qualquer lixo que se deriva de eletrônicos: geladeiras e freezers, microondas, cafeteiras, ventiladores, televisões, celulares, entre outros</string>
+    <string name="info_ondImpac">Por conta de grande parte do lixo eletrônico conter muito metal pesado, acaba afetando diretamente na saúde pública, podendo contaminar o solo, fauna e flora, e até mesmo diminuir o tempo de vida de um aterro sanitário.</string>
+    <string name="info_comoImpac">O Brasil é o quinto maior produtor de lixo eletrônico do mundo, com China, India, Japão e Estados Unidos na frente, e milhares de pessoas nem sabem qual o efeito do lixo eletronico no meio ambiente, devido à falta de informação.</string>
+    <string name="info_comoImpac2">Eles podem impactar nos Danos Ambientais, egotamento de matéria prima, problemas de saúde, além de ser um risco a segurança e privacidade.</string>
+    <string name="info_desc">Para o descarte e reciclagem corretos desse tipo de lixo, é necessário:</string>
+    <string name="info_desc2"> -apagar seus dados, caso sejam lixos como celulares ou componentes de computador;</string>
+    <string name="info_desc3"> -procurar o fabricante, pois a Politica Nacional de Resíduos Sólidos diz que a empresa fabricante é responsável pelo descarte de lixo eletronico, assim, sabendo a maneira correta de como descartar os devidos produtos;</string>
+    <string name="info_desc4"> -procurar locais de coleta, existem diversos locais que marcam dias para coletar esses tipos de lixo em massa.</string>
 </resources>
