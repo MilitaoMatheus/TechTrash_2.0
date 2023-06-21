@@ -41,7 +41,7 @@
         android:layout_marginBottom="364dp"
         android:backgroundTint="@color/green"
         android:onClick="transicao2"
-        android:text="@string/app_ir"
+        android:text="@string/app_ir2"
         android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,7 +60,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.059"
         app:srcCompat="@drawable/reciclagem1" />
 
     <TextView
@@ -76,8 +76,10 @@
         android:textSize="55sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
 
     <TextView
         android:id="@+id/idtxtintroducao"
@@ -87,7 +89,7 @@
         android:layout_marginBottom="850dp"
         android:text="@string/app_textomenu"
         android:textAlignment="center"
-        android:textSize="29dp"
+        android:textSize="29sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -105,7 +107,7 @@
         android:text="@string/app_oquee"
         android:textColor="@color/black"
         android:textColorHighlight="@color/black"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -121,11 +123,13 @@
         android:layout_marginBottom="152dp"
         android:text="@string/app_descarte"
         android:textColor="@color/black"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/txtlugimp"
@@ -137,7 +141,7 @@
         android:layout_marginBottom="374dp"
         android:text="@string/app_ondeimpac"
         android:textColor="@color/black"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -153,13 +157,13 @@
         android:layout_marginBottom="270dp"
         android:text="@string/app_comoimpac"
         android:textColor="@color/black"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.381" />
 
     <TextView
         android:id="@+id/txtoptions"
@@ -176,8 +180,10 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
 
     <Button
         android:id="@+id/btnir1"
@@ -189,7 +195,7 @@
         android:layout_marginBottom="464dp"
         android:backgroundTint="@color/green"
         android:onClick="transicao1"
-        android:text="@string/app_ir"
+        android:text="@string/app_ir1"
         android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -207,7 +213,7 @@
         android:layout_marginBottom="270dp"
         android:backgroundTint="@color/green"
         android:onClick="transicao3"
-        android:text="@string/app_ir"
+        android:text="@string/app_ir3"
         android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -225,12 +231,14 @@
         android:layout_marginBottom="93dp"
         android:backgroundTint="@color/green"
         android:onClick="transicao4"
-        android:text="@string/app_ir"
+        android:text="@string/app_ir4"
         android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,7 +10,10 @@
     <string name="logoreciclagem" />
     <string name="app_voltar">Voltar</string>
     <string name="descarte_reutiizcao">Descarte e Reutilização</string>
-    <string name="app_ir">Ir</string>
+    <string name="app_ir1">Ir</string>
+    <string name="app_ir2">Ir</string>
+    <string name="app_ir3">Ir</string>
+    <string name="app_ir4">Ir</string>
     <string name="info_oque1">Lixo eletrônico é todo e qualquer lixo que se deriva de eletrônicos: geladeiras e freezers, microondas, cafeteiras, ventiladores, televisões, celulares, entre outros</string>
     <string name="info_ondImpac">Por conta de grande parte do lixo eletrônico conter muito metal pesado, acaba afetando diretamente na saúde pública, podendo contaminar o solo, fauna e flora, e até mesmo diminuir o tempo de vida de um aterro sanitário.</string>
     <string name="info_comoImpac">O Brasil é o quinto maior produtor de lixo eletrônico do mundo, com China, India, Japão e Estados Unidos na frente, e milhares de pessoas nem sabem qual o efeito do lixo eletronico no meio ambiente, devido à falta de informação.</string>
