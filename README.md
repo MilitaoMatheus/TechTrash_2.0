@@ -1,5 +1,5 @@
 # TechTrash_2.0
-## Aplicativo criado por Matheus Militão e Pedro Santos Pequini   2 DS   
+## Aplicativo criado por Matheus Militão e Livia Rodrigues Cremonez   2 DS   
 ## Trabalho de PAM - Profa Aline   
 
 ### Tópicos  
@@ -17,8 +17,7 @@ O aplicativo conta com 6 telas, com 1 delas sendo a de inicio, 1 sendo para a es
 Foi utilizado a linguagem Java, e os recursos do Android Studio, como TextViews, Buttons(e ImageButtons), transição de uma tela para a outra, entre outros.  
 Em relação ao design, preferimos utilizar as cores branco e verde, para ppoder simbolizar de maneira mais fiel sobre a importância do bem estar da natureza, e simbolos como o de reciclagem, que foi um dos mais utilizados no aplicativo.  
 
-![IMG-20230621-WA0089](https://github.com/MilitaoMatheus/TechTrash_2.0/assets/128047584/c75085de-37b4-46a0-818f-ff56e85e82be)
-
+![diagrama 2 0](https://github.com/MilitaoMatheus/TechTrash_2.0/assets/127455174/9fb7a8b0-7a0b-44ba-96c7-bc9c24f6b8b0)
 
 ### Ao total foram:
 - 5 Buttons
@@ -52,7 +51,7 @@ Uma nova tela onde o usuário poderia ter o seu próprio perfil na aplicação, 
 
 ### Localização
 ```
-Essa parte seria adicionada exclusivamente na tela que informa sobre onde descartar o lixo eletrônico. Assim mostrando os pontos de descarte perto de sua localização atual.
+Essa parte seria adicionada exclusivamente na tela que informa sobre onde descartar o lixo eletrônico. Assim mostrando os pontos de descarte perto de sua localização atual. E caso o usuário ainda fique com dúvida sobre aonde descartar o Lixo eletrônico, deixaremos um botão ou um link que o direcione para um site que permite o agendamento para a coleta do lixo. Site:http://www.sardobrasil.com.br/compra-sucata-lixo-eletronico/?gclid=Cj0KCQjwldKmBhCCARIsAP-0rfyxcxRQv3pbQVW8KKe_9KwOnX74tKFDN83xTHM0L36poE8Nbrlewj4aAsuxEALw_wcB
 ```
 
 ## Diagrama de classes - TechTrash
