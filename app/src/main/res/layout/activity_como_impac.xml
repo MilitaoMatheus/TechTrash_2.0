@@ -42,7 +42,7 @@
         app:srcCompat="@drawable/reciclagem1" />
 
     <ImageButton
-        android:id="@+id/btnvoltar4"
+        android:id="@+id/btnvoltar6"
         android:layout_width="107dp"
         android:layout_height="73dp"
         android:layout_marginTop="654dp"
