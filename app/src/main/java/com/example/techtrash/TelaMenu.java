@@ -6,8 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class TelaMenu extends AppCompatActivity {
+    static String mensagem;
 
     Button btnir1;
     Button btnir2;
@@ -18,6 +20,12 @@ public class TelaMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_menu);
+
+        Intent nomeUsu = getIntent();
+        String msg = nomeUsu.getStringExtra(MainActivity.NOME_USUARIO);
+        mensagem = "Seja bem vindo, " + msg + "! O que deseja ver??";
+        TextView nomeText = (TextView)findViewById(R.id.nomeText);
+        nomeText.setText(mensagem);
 
         btnir1 = (Button) findViewById(R.id.btnir1);
         btnir2 = (Button) findViewById(R.id.btnir2);
