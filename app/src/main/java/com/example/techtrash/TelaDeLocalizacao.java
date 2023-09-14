@@ -30,7 +30,7 @@ public class TelaDeLocalizacao extends AppCompatActivity {
     }
 
     public void Pesquisar (View view) {
-        Uri uri = Uri.parse("https://www.google.com/maps/place/Centro+de+Descarte+e+Re%C3%BAso+de+Res%C3%ADduos+de+Inform%C3%A1tica+-+CEDIR/@-23.5559876,-46.7285636,15z/data=!4m6!3m5!1s0x94ce563c461c085f:0x3d015c99b2ebd9bc!8m2!3d-23.5559876!4d-46.7285636!16s%2Fg%2F11b7f2k9bh?entry=ttu");
+        Uri uri = Uri.parse("https://www.google.com/maps/place/R.+do+Triunfo,+203+-+Santa+Ifig%C3%AAnia,+S%C3%A3o+Paulo+-+SP,+01212-010/@-23.5364079,-46.6382472,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce585bbe00c519:0x5121cdd4c82b907a!8m2!3d-23.5364079!4d-46.6382472!16s%2Fg%2F11cs8mdx9d?entry=ttu");
         Intent it = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(it);
     }
