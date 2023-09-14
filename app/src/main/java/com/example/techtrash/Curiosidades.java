@@ -7,18 +7,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class tela_oque extends AppCompatActivity {
+public class Curiosidades extends AppCompatActivity {
 
-    ImageButton btnvoltaroque;
-
+    ImageButton btnvoltarcuriosidade;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tela_oque);
+        setContentView(R.layout.activity_curiosidades);
 
-        btnvoltaroque = (ImageButton) findViewById(R.id.btnvoltaroque);
+        btnvoltarcuriosidade = (ImageButton) findViewById(R.id.btnvoltarcuriosidade);
     }
-    public void voltar(View view){
+    public void voltar (View view){
         Intent intent = new Intent(this, TelaMenu.class);
         startActivity(intent);
     }

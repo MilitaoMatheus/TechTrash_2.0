@@ -2,14 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frmlugImpac"
+    android:id="@+id/frmcuriosidade"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/green"
-    tools:context=".Tela_OndeImapc">
+    tools:context=".Curiosidades">
 
     <ImageView
-        android:id="@+id/imglogowhite3"
+        android:id="@+id/imglogowhite"
         android:layout_width="103dp"
         android:layout_height="76dp"
         android:layout_marginStart="310dp"
@@ -24,7 +24,24 @@
         app:srcCompat="@drawable/reciclagem1" />
 
     <ImageButton
-        android:id="@+id/btnvoltarimpac"
+        android:id="@+id/btnvoltar4"
+        android:layout_width="107dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="654dp"
+        android:layout_marginEnd="304dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@color/green"
+        android:onClick="voltar1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/btnvoltarcuriosidade"
         android:layout_width="107dp"
         android:layout_height="73dp"
         android:layout_marginTop="654dp"
@@ -41,44 +58,41 @@
         app:srcCompat="@drawable/home" />
 
     <View
-        android:id="@+id/telalugimp"
-        android:layout_width="400dp"
-        android:layout_height="610dp"
-        android:layout_marginTop="83dp"
-        android:layout_marginBottom="83dp"
+        android:id="@+id/telacuriosidade"
+        android:layout_width="392dp"
+        android:layout_height="626dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="102dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txtlugimpac"
+        android:id="@+id/txtcuriosidade"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="152dp"
-        android:layout_marginTop="37dp"
-        android:layout_marginEnd="153dp"
-        android:layout_marginBottom="675dp"
-        android:text="@string/app_ondeimpac"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="740dp"
+        android:text="@string/curiosidades"
         android:textColor="@color/white"
-        android:textSize="50sp"
+        android:textSize="55sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txtinfoOndeImpac"
+        android:id="@+id/txtcuriosidade1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="93dp"
-        android:layout_marginBottom="352dp"
-        android:text="@string/info_ondImpac"
+        android:layout_marginTop="131dp"
+        android:layout_marginBottom="481dp"
+        android:text="@string/curiosidade1"
         android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -86,18 +100,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="287dp"
-        android:layout_height="210dp"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="410dp"
-        android:layout_marginEnd="62dp"
-        android:layout_marginBottom="111dp"
+    <TextView
+        android:id="@+id/txtcuriosidade2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="374dp"
+        android:layout_marginBottom="309dp"
+        android:text="@string/curiosidade2"
+        android:textColor="@color/black"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/aterro" />
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/txtcuriosidade3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="538dp"
+        android:layout_marginBottom="145dp"
+        android:text="@string/curiosidade3"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

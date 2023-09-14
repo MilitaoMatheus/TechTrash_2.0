@@ -22,9 +22,12 @@
     <string name="info_desc2"> -apagar seus dados, caso sejam lixos como celulares ou componentes de computador;</string>
     <string name="info_desc3"> -procurar o fabricante, pois a Politica Nacional de Resíduos Sólidos diz que a empresa fabricante é responsável pelo descarte de lixo eletronico, assim, sabendo a maneira correta de como descartar os devidos produtos;</string>
     <string name="info_desc4"> -procurar locais de coleta, existem diversos locais que marcam dias para coletar esses tipos de lixo em massa.</string>
-    <string name="app_LocDescartes">Locais de descarte:</string>
-    <string name="LocalDesc1">Descarte de Lixo Eletrônico</string>
     <string name="LocalDesc2">Centro de Descarte e Reúso de Resíduos de Informática - CEDIR</string>
-    <string name="LocalDesc3">lixo eletronico reciclo info sales nv</string>
     <string name="NomeUsu">Insira seu nome:</string>
+    <string name="locdesc1">Localização</string>
+    <string name="opção">Caso deseje pesquisar outro lugares na web, clique aqui:</string>
+    <string name="curiosidades">Curiosidades</string>
+    <string name="curiosidade1">O lixo eletrônico, como celulares e computadores antigos, contém materiais valiosos que podem ser reciclados, reduzindo o impacto ambiental.</string>
+    <string name="curiosidade2"> Ele contém substâncias tóxicas, como mercúrio e chumbo, prejudiciais ao meio ambiente e à saúde humana.</string>
+    <string name="curiosidade3">Existem convenções internacionais para controlar o movimento de resíduos eletrônicos entre países.</string>
 </resources>

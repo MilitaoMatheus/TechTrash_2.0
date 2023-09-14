@@ -19,17 +19,52 @@
 
     <View
         android:id="@+id/telamenu"
-        android:layout_width="406dp"
-        android:layout_height="605dp"
+        android:layout_width="390dp"
+        android:layout_height="731dp"
         android:layout_marginTop="89dp"
-        android:layout_marginBottom="76dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="9dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnir6"
+        android:layout_width="108dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="724dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="@color/green"
+        android:onClick="transicao6"
+        android:text="@string/app_ir4"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnir5"
+        android:layout_width="108dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="647dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="125dp"
+        android:backgroundTint="@color/green"
+        android:onClick="transicao5"
+        android:text="@string/app_ir4"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnir2"
@@ -48,20 +83,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imglogowhite"
-        android:layout_width="103dp"
-        android:layout_height="76dp"
-        android:layout_marginStart="318dp"
-        android:layout_marginTop="664dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.761"
-        app:srcCompat="@drawable/reciclagem1" />
 
     <Button
         android:id="@+id/btnir1"
@@ -117,7 +138,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnir5"
+        android:id="@+id/btnir4"
         android:layout_width="108dp"
         android:layout_height="57dp"
         android:layout_marginStart="20dp"
@@ -153,21 +174,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.077" />
-
-    <TextView
-        android:id="@+id/idtxtintroducao"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-300dp"
-        android:layout_marginBottom="850dp"
-        android:text="@string/app_textomenu"
-        android:textAlignment="center"
-        android:textSize="29sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/telamenu"
-        app:layout_constraintVertical_bias="0.45999998" />
 
     <TextView
         android:id="@+id/nomeText"
@@ -239,5 +245,37 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.381" />
+
+    <TextView
+        android:id="@+id/txtLocais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="654dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="135dp"
+        android:text="@string/locdesc1"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtcuriosidades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="733dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginBottom="56dp"
+        android:text="@string/curiosidades"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

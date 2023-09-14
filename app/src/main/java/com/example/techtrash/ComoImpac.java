@@ -9,17 +9,17 @@ import android.widget.ImageButton;
 
 public class ComoImpac extends AppCompatActivity {
 
-    ImageButton btnvoltar4;
+    ImageButton btnvoltarci;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_como_impac);
 
-        btnvoltar4 = (ImageButton) findViewById(R.id.btnvoltar6);
+        btnvoltarci = (ImageButton) findViewById(R.id.btnvoltarci);
     }
 
-    public void voltar2(View view) {
+    public void voltar (View view) {
         Intent intent = new Intent(this, TelaMenu.class);
         startActivity(intent);
     }

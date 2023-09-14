@@ -9,16 +9,16 @@ import android.widget.ImageButton;
 
 public class DescarteReutilizacao extends AppCompatActivity {
 
-    ImageButton btnvoltar5;
+    ImageButton btnvoltardr;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_descarte_reutilizacao);
 
-        btnvoltar5 = (ImageButton) findViewById(R.id.btnvoltar5);
+        btnvoltardr = (ImageButton) findViewById(R.id.btnvoltardr);
     }
-    public void voltar3(View view) {
+    public void voltar(View view) {
         Intent intent = new Intent(this, TelaMenu.class);
         startActivity(intent);
     }

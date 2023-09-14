@@ -42,14 +42,14 @@
         app:srcCompat="@drawable/reciclagem1" />
 
     <ImageButton
-        android:id="@+id/btnvoltar6"
+        android:id="@+id/btnvoltarci"
         android:layout_width="107dp"
         android:layout_height="73dp"
         android:layout_marginTop="654dp"
         android:layout_marginEnd="304dp"
         android:layout_marginBottom="4dp"
         android:backgroundTint="@color/green"
-        android:onClick="voltar2"
+        android:onClick="voltar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
