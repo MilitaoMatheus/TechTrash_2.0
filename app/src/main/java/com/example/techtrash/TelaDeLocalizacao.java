@@ -9,11 +9,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+
 public class TelaDeLocalizacao extends AppCompatActivity {
 
     ImageButton btnvoltarloc1;
     Button btnloc1;
     Button btnweb;
+    Button btnligar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +26,7 @@ public class TelaDeLocalizacao extends AppCompatActivity {
         btnvoltarloc1 = (ImageButton) findViewById(R.id.btnvoltarloc1);
         btnloc1 = (Button) findViewById(R.id.btnloc1);
         btnweb = (Button) findViewById(R.id.btnweb);
+        btnligar = (Button) findViewById(R.id.btnligar);
     }
 
     public void Pesquisar (View view) {
@@ -29,9 +34,17 @@ public class TelaDeLocalizacao extends AppCompatActivity {
         Intent it = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(it);
     }
-    public void PesquisarGoogle (View view){
-        Uri uri = Uri.parse("https://www.google.com/search?q=locais+de+descarte+de+lixo+eletronico&rlz=1C1GCEA_enBR1059BR1059&oq=locais+de+descarte&aqs=chrome.0.0i512j69i57j0i512l5j0i22i30l3.3709j0j4&sourceid=chrome&ie=UTF-8");
-        Intent it = new Intent(Intent.ACTION_VIEW, uri);
+    public void EnviarEmail (View view) throws UnsupportedEncodingException {
+        String uriText = "mailto:contato@sobreiralixoeletronico.com.br" + "?subject="+ URLEncoder.encode("Lixo Eletrônico", "utf-8")+
+                "&body=" + URLEncoder.encode("Gostaria de saber mais sobre", "utf-8");
+        Uri uri = Uri.parse(uriText);
+        Intent it = new Intent(Intent.ACTION_SENDTO);
+        it.setData(uri);
+        startActivity(Intent.createChooser(it, "Enviar Email"));
+    }
+    public void Ligar (View view){
+        Uri uri = Uri.parse("tel:(11) 3333-2135");
+        Intent it = new Intent(Intent.ACTION_DIAL, uri);
         startActivity(it);
     }
     public void voltar(View view){

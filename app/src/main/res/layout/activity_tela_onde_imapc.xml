@@ -9,18 +9,15 @@
     tools:context=".Tela_OndeImapc">
 
     <ImageView
-        android:id="@+id/imglogowhite3"
-        android:layout_width="103dp"
-        android:layout_height="76dp"
-        android:layout_marginStart="310dp"
-        android:layout_marginTop="651dp"
-        android:layout_marginBottom="4dp"
+        android:id="@+id/imglogoOI"
+        android:layout_width="107dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="732dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/reciclagem1" />
 
     <ImageButton

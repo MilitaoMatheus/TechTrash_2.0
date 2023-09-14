@@ -24,7 +24,7 @@ public class TelaMenu extends AppCompatActivity {
 
         Intent nomeUsu = getIntent();
         String msg = nomeUsu.getStringExtra(MainActivity.NOME_USUARIO);
-        mensagem = "Seja bem vindo, " + msg + "! O que deseja ver??";
+        mensagem = "Seja bem vindo(a), " + msg + "! O que deseja ver??";
         TextView nomeText = (TextView)findViewById(R.id.nomeText);
         nomeText.setText(mensagem);
 

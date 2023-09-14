@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imglogowhite2"
+        android:id="@+id/imglogoOque"
         android:layout_width="103dp"
         android:layout_height="76dp"
         android:layout_marginStart="311dp"

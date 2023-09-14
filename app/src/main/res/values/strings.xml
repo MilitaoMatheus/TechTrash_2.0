@@ -25,9 +25,11 @@
     <string name="LocalDesc2">Centro de Descarte e Reúso de Resíduos de Informática - CEDIR</string>
     <string name="NomeUsu">Insira seu nome:</string>
     <string name="locdesc1">Localização</string>
-    <string name="opção">Caso deseje pesquisar outro lugares na web, clique aqui:</string>
+    <string name="opção">Caso deseje mandar um email para outra organização, clique aqui:</string>
     <string name="curiosidades">Curiosidades</string>
     <string name="curiosidade1">O lixo eletrônico, como celulares e computadores antigos, contém materiais valiosos que podem ser reciclados, reduzindo o impacto ambiental.</string>
     <string name="curiosidade2"> Ele contém substâncias tóxicas, como mercúrio e chumbo, prejudiciais ao meio ambiente e à saúde humana.</string>
     <string name="curiosidade3">Existem convenções internacionais para controlar o movimento de resíduos eletrônicos entre países.</string>
+    <string name="ligação">Ou clique aqui para ligar para marcar sua coleta:</string>
+    <string name="ligar">Ligar</string>
 </resources>

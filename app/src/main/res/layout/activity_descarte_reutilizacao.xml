@@ -8,6 +8,18 @@
     android:background="@color/green"
     tools:context=".DescarteReutilizacao">
 
+    <ImageView
+        android:id="@+id/imglogoDR"
+        android:layout_width="107dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="707dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reciclagem1" />
+
     <ImageButton
         android:id="@+id/btnvoltardr"
         android:layout_width="107dp"
@@ -40,37 +52,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <ImageView
-        android:id="@+id/imglogowhite5"
-        android:layout_width="103dp"
-        android:layout_height="76dp"
-        android:layout_marginStart="311dp"
-        android:layout_marginTop="654dp"
-        android:layout_marginBottom="1dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.842"
-        app:srcCompat="@drawable/reciclagem1" />
-
     <TextView
         android:id="@+id/txtreutilizadescarte"
         android:layout_width="427dp"
         android:layout_height="110dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="605dp"
         android:text="@string/descarte_reutiizcao"
         android:textColor="@color/white"
         android:textSize="35sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/txtdesc1"

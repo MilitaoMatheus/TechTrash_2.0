@@ -9,7 +9,7 @@
     tools:context=".Curiosidades">
 
     <ImageView
-        android:id="@+id/imglogowhite"
+        android:id="@+id/imglogoCuriosidade"
         android:layout_width="103dp"
         android:layout_height="76dp"
         android:layout_marginStart="310dp"
