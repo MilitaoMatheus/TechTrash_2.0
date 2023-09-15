@@ -45,7 +45,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/btnligar"
@@ -69,8 +70,8 @@
         android:layout_marginTop="444dp"
         android:layout_marginEnd="253dp"
         android:layout_marginBottom="304dp"
-        android:onClick="PesquisarGoogle"
-        android:text="@string/app_ir1"
+        android:onClick="EnviarEmail"
+        android:text="@string/app_ir8"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -114,7 +115,7 @@
         android:layout_marginEnd="253dp"
         android:layout_marginBottom="531dp"
         android:onClick="Pesquisar"
-        android:text="@string/app_ir1"
+        android:text="@string/app_ir7"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

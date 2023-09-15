@@ -1,19 +1,63 @@
 <resources>
+    <!--String da logo-->
     <string name="app_name">TechTrash</string>
+
+    <!--String do botão entrar-->
     <string name="app_btn1">ENTRAR</string>
+
+    <!--String do título da tela menu-->
     <string name="app_menu">MENU</string>
-    <string name="app_textomenu">Selecione o assunto que mais te interessar sobre o lixo eletrônico!</string>
+
+    <!--String da primeira opção de tela-->
     <string name="app_oquee">O que são?</string>
+
+    <!--String da segunda opção de tela-->
     <string name="app_ondeimpac">Onde impactam?</string>
+
+    <!--String da terceira opção de tela-->
     <string name="app_comoimpac">Como impactam?</string>
+
+    <!--String da quarta opção de tela-->
     <string name="app_descarte">Como descartar e reutilizar?</string>
-    <string name="logoreciclagem" />
+
+    <!--String da quinta opção de tela-->
+    <string name="curiosidades">Curiosidades</string>
+
+    <!--String da quinta opção de tela-->
+    <string name="locdesc1">Locais e infos:</string>
+
+    <!--String da logo-->
+    <string name="logoreciclagem"/>
+
+    <!--String do botão de voltar-->
     <string name="app_voltar">Voltar</string>
+
+    <!--String do titulo da tela de descarte e reutilização -->
     <string name="descarte_reutiizcao">Descarte e Reutilização</string>
+
+    <!--String do botão ir pra tela 1-->
     <string name="app_ir1">Ir</string>
+
+    <!--String do botão ir pra tela 2-->
     <string name="app_ir2">Ir</string>
+
+    <!--String do botão ir pra tela 3-->
     <string name="app_ir3">Ir</string>
+
+    <!--String do botão ir pra tela 4-->
     <string name="app_ir4">Ir</string>
+
+    <!--String do botão ir pra tela 5-->
+    <string name="app_ir5">Ir</string>
+
+    <!--String do botão ir pra tela 6-->
+    <string name="app_ir6">Ir</string>
+
+    <!--String do botão ir pra tela 7-->
+    <string name="app_ir7">Ir</string>
+
+    <!--String do botão ir pra tela 8-->
+    <string name="app_ir8">Ir</string>
     <string name="info_oque1">Lixo eletrônico é todo e qualquer lixo que se deriva de eletrônicos: geladeiras e freezers, microondas, cafeteiras, ventiladores, televisões, celulares, entre outros</string>
     <string name="info_ondImpac">Por conta de grande parte do lixo eletrônico conter muito metal pesado, acaba afetando diretamente na saúde pública, podendo contaminar o solo, fauna e flora, e até mesmo diminuir o tempo de vida de um aterro sanitário.</string>
     <string name="info_comoImpac">O Brasil é o quinto maior produtor de lixo eletrônico do mundo, com China, India, Japão e Estados Unidos na frente, e milhares de pessoas nem sabem qual o efeito do lixo eletronico no meio ambiente, devido à falta de informação.</string>
@@ -24,9 +68,7 @@
     <string name="info_desc4"> -procurar locais de coleta, existem diversos locais que marcam dias para coletar esses tipos de lixo em massa.</string>
     <string name="LocalDesc2">Sobreira - Reciclagem de lixo eletrônico</string>
     <string name="NomeUsu">Insira seu nome:</string>
-    <string name="locdesc1">Localização</string>
     <string name="opção">Caso deseje mandar um email para outra organização, clique aqui:</string>
-    <string name="curiosidades">Curiosidades</string>
     <string name="curiosidade1">O lixo eletrônico, como celulares e computadores antigos, contém materiais valiosos que podem ser reciclados, reduzindo o impacto ambiental.</string>
     <string name="curiosidade2"> Ele contém substâncias tóxicas, como mercúrio e chumbo, prejudiciais ao meio ambiente e à saúde humana.</string>
     <string name="curiosidade3">Existem convenções internacionais para controlar o movimento de resíduos eletrônicos entre países.</string>

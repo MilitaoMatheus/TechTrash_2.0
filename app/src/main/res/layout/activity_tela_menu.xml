@@ -27,8 +27,10 @@
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/btnir6"
@@ -40,7 +42,7 @@
         android:layout_marginBottom="48dp"
         android:backgroundTint="@color/green"
         android:onClick="transicao6"
-        android:text="@string/app_ir4"
+        android:text="@string/app_ir6"
         android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,13 +54,13 @@
         android:id="@+id/btnir5"
         android:layout_width="108dp"
         android:layout_height="57dp"
-        android:layout_marginStart="192dp"
-        android:layout_marginTop="647dp"
-        android:layout_marginEnd="93dp"
-        android:layout_marginBottom="125dp"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="645dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="127dp"
         android:backgroundTint="@color/green"
         android:onClick="transicao5"
-        android:text="@string/app_ir4"
+        android:text="@string/app_ir5"
         android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -259,8 +261,10 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/txtcuriosidades"

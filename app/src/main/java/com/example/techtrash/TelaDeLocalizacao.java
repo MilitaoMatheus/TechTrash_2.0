@@ -35,8 +35,8 @@ public class TelaDeLocalizacao extends AppCompatActivity {
         startActivity(it);
     }
     public void EnviarEmail (View view) throws UnsupportedEncodingException {
-        String uriText = "mailto:contato@sobreiralixoeletronico.com.br" + "?subject="+ URLEncoder.encode("Lixo Eletrônico", "utf-8")+
-                "&body=" + URLEncoder.encode("Gostaria de saber mais sobre", "utf-8");
+        String uriText = "mailto:contato@sobreiralixoeletronico.com.br" + "?subject="+ URLEncoder.encode("Lixo " + "Eletrônico", "utf-8")+
+                "&body=" + URLEncoder.encode("Gostaria "+ "de " +  "saber " + "mais " + "sobre.", "utf-8");
         Uri uri = Uri.parse(uriText);
         Intent it = new Intent(Intent.ACTION_SENDTO);
         it.setData(uri);
