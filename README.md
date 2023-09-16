@@ -72,3 +72,6 @@ O foco principal do app TechTrash é informatizar a todos sobre o básico sobre 
 <br>
 <br>
   A reciclagem e a gestão adequada do lixo eletrônico são essenciais para reduzir seus impactos negativos. Isso envolve a coleta, desmontagem, recuperação de materiais valiosos e o descarte seguro dos resíduos. Além disso, a reutilização e a doação de dispositivos eletrônicos ainda funcionais podem ajudar a prolongar sua vida útil e reduzir a produção de lixo eletrônico. Portanto, o tratamento responsável do lixo eletrônico é crucial para proteger o meio ambiente e promover a sustentabilidade.
+
+## Link do vídeo do app
+https://youtu.be/QNNnDDnxKOI?feature=shared
