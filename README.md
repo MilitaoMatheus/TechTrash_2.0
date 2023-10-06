@@ -1,5 +1,5 @@
 # TechTrash_2.0
-## Aplicativo criado por Matheus Militão e Livia Rodrigues Cremonez   2 DS   
+## Aplicativo criado por Matheus Militão da Silva e Matheus Gama Russi   2 DS   
 ## Trabalho de PAM - Profa Aline   
 
 ### Tópicos  
