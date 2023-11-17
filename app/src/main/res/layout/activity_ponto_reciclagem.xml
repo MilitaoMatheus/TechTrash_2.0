@@ -70,7 +70,36 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:text="@string/ponto_mensagem"
+            android:textColor="@color/black"
             android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txtPontoMensagem2"
+            android:layout_width="266dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/mensagem_aviso"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="373dp"
+            android:layout_height="205dp"
+            app:srcCompat="@drawable/mapa" />
+
+        <Button
+            android:id="@+id/btnloc"
+            android:layout_width="197dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="150dp"
+            android:backgroundTint="@color/green"
+            android:text="@string/app_ir7"
+            android:textSize="30sp" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

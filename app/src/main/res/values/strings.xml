@@ -75,4 +75,5 @@
     <string name="ligação">Ou clique aqui para ligar para marcar sua coleta:</string>
     <string name="ligar">Ligar</string>
     <string name="ponto_mensagem">Encontre os pontos de descarte de lixo tecnológico mais próximos de você!</string>
+    <string name="mensagem_aviso">Para poder usar esse recurso, será necessário permitir o uso da localização!</string>
 </resources>
