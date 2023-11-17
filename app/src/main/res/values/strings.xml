@@ -27,7 +27,7 @@
     <string name="locdesc1">Locais e infos:</string>
 
     <!--String da logo-->
-    <string name="logoreciclagem"/>
+    <string name="logoreciclagem" />
 
     <!--String do botão de voltar-->
     <string name="app_voltar">Voltar</string>
@@ -74,4 +74,5 @@
     <string name="curiosidade3">Existem convenções internacionais para controlar o movimento de resíduos eletrônicos entre países.</string>
     <string name="ligação">Ou clique aqui para ligar para marcar sua coleta:</string>
     <string name="ligar">Ligar</string>
+    <string name="ponto_mensagem">Encontre os pontos de descarte de lixo tecnológico mais próximos de você!</string>
 </resources>

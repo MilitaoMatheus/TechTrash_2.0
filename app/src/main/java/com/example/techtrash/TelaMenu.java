@@ -18,6 +18,7 @@ public class TelaMenu extends AppCompatActivity {
     ImageButton btnOndeImpac;
     ImageButton btnDescarte;
     ImageButton btnContato;
+    ImageButton btnPontoDescarte;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +39,7 @@ public class TelaMenu extends AppCompatActivity {
         btnOndeImpac = (ImageButton) findViewById(R.id.imgOndeImpac);
         btnDescarte = (ImageButton) findViewById(R.id.imgDesc);
         btnContato = (ImageButton) findViewById(R.id.imgContato);
+        btnPontoDescarte = (ImageButton) findViewById(R.id.imgSensor);
     }
 
     public void IrOquee(View view){
@@ -62,6 +64,10 @@ public class TelaMenu extends AppCompatActivity {
     }
     public void IrContato (View view){
         Intent intent = new Intent(this, Curiosidades.class);
+        startActivity(intent);
+    }
+    public void IrPontoDesc (View view){
+        Intent intent = new Intent(this, PontoReciclagemActivity.class);
         startActivity(intent);
     }
 }

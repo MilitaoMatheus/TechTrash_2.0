@@ -13,16 +13,13 @@
         android:theme="@style/Theme.TechTrash"
         tools:targetApi="31">
         <activity
+            android:name=".PontoReciclagemActivity"
+            android:exported="false" />
+        <activity
             android:name=".Curiosidades"
             android:exported="false" />
         <activity
             android:name=".TelaDeLocalizacao"
-            android:exported="false" />
-        <activity
-            android:name=".ActivityNome"
-            android:exported="false" />
-        <activity
-            android:name=".LocaisDescartes"
             android:exported="false" />
         <activity
             android:name=".DescarteReutilizacao"

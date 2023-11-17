@@ -70,6 +70,7 @@
                 android:id="@+id/imgOquee"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
                 android:onClick="IrOquee"
                 android:paddingStart="2dp"
                 android:src="@drawable/o_que__" />
@@ -78,6 +79,7 @@
                 android:id="@+id/imgCuriosidades"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
                 android:onClick="IrCuriosidades"
                 android:paddingTop="10dp"
                 android:src="@drawable/curiosidades1" />
@@ -86,6 +88,7 @@
                 android:id="@+id/imgComoImpac"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
                 android:onClick="IrImpactos"
                 android:src="@drawable/impactos" />
 
@@ -93,6 +96,7 @@
                 android:id="@+id/imgOndeImpac"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
                 android:onClick="IrLugarImpacto"
                 android:src="@drawable/ondeimpactam" />
 
@@ -100,6 +104,7 @@
                 android:id="@+id/imgDesc"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
                 android:onClick="IrDescarte"
                 android:src="@drawable/lugar" />
 
@@ -107,6 +112,7 @@
                 android:id="@+id/imgContato"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
                 android:onClick="IrContato"
                 android:src="@drawable/contato" />
 
@@ -114,6 +120,8 @@
                 android:id="@+id/imgSensor"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="IrPontoDesc"
                 android:src="@drawable/descrapido" />
         </LinearLayout>
     </ScrollView>
