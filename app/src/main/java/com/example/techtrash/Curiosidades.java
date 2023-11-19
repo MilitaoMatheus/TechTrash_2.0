@@ -9,16 +9,19 @@ import android.widget.ImageButton;
 
 public class Curiosidades extends AppCompatActivity {
 
-    ImageButton btnvoltarcuriosidade;
+    //ImageButton btnvoltarcuriosidade;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_curiosidades);
 
-        btnvoltarcuriosidade = (ImageButton) findViewById(R.id.btnvoltarcuriosidade);
+        //btnvoltarcuriosidade = (ImageButton) findViewById(R.id.btnvoltarcuriosidade);
     }
+    /*
     public void voltar (View view){
         Intent intent = new Intent(this, TelaMenu.class);
         startActivity(intent);
     }
+    */
+
 }

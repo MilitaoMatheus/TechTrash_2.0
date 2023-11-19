@@ -8,41 +8,14 @@
     android:background="@color/green"
     tools:context=".Tela_OndeImapc">
 
-    <ImageView
-        android:id="@+id/imglogoOI"
-        android:layout_width="107dp"
-        android:layout_height="124dp"
-        android:layout_marginStart="286dp"
-        android:layout_marginTop="732dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/reciclagem1" />
-
-    <ImageButton
-        android:id="@+id/btnvoltarimpac"
-        android:layout_width="107dp"
-        android:layout_height="73dp"
-        android:layout_marginTop="654dp"
-        android:layout_marginEnd="304dp"
-        android:layout_marginBottom="4dp"
-        android:backgroundTint="@color/green"
-        android:onClick="voltar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/home" />
-
     <View
-        android:id="@+id/telalugimp"
-        android:layout_width="400dp"
-        android:layout_height="610dp"
-        android:layout_marginTop="83dp"
-        android:layout_marginBottom="83dp"
+        android:id="@+id/view6"
+        android:layout_width="364dp"
+        android:layout_height="822dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="13dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,50 +24,70 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-    <TextView
-        android:id="@+id/txtlugimpac"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="152dp"
-        android:layout_marginTop="37dp"
-        android:layout_marginEnd="153dp"
-        android:layout_marginBottom="675dp"
-        android:text="@string/app_ondeimpac"
-        android:textColor="@color/white"
-        android:textSize="50sp"
+    <ImageView
+        android:id="@+id/imgCircle5"
+        android:layout_width="247dp"
+        android:layout_height="259dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="720dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:srcCompat="@drawable/baseline_circle_24" />
 
     <TextView
-        android:id="@+id/txtinfoOndeImpac"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="93dp"
-        android:layout_marginBottom="352dp"
-        android:text="@string/info_ondImpac"
-        android:textColor="@color/black"
-        android:textSize="30sp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="779dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/app_ondeimpac"
+        android:textColor="@color/white"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="287dp"
-        android:layout_height="210dp"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="410dp"
-        android:layout_marginEnd="62dp"
-        android:layout_marginBottom="111dp"
+    <TextView
+        android:id="@+id/txtOndeImpactam"
+        android:layout_width="353dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="484dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/info_ondImpac"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/aterro" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtOndeImpactam2"
+        android:layout_width="346dp"
+        android:layout_height="398dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="73dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/info_ondImpac2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,16 +9,16 @@
     <string name="app_menu">MENU</string>
 
     <!--String da primeira opção de tela-->
-    <string name="app_oquee">O que são?</string>
+    <string name="app_oquee">O que é?</string>
 
     <!--String da segunda opção de tela-->
-    <string name="app_ondeimpac">Onde impactam?</string>
+    <string name="app_ondeimpac">Onde?</string>
 
     <!--String da terceira opção de tela-->
-    <string name="app_comoimpac">Como impactam?</string>
+    <string name="app_comoimpac">Impactos?</string>
 
     <!--String da quarta opção de tela-->
-    <string name="app_descarte">Como descartar e reutilizar?</string>
+    <string name="app_descarte">Descarte</string>
 
     <!--String da quinta opção de tela-->
     <string name="curiosidades">Curiosidades</string>
@@ -59,19 +59,22 @@
     <!--String do botão ir pra tela 8-->
     <string name="app_ir8">Ir</string>
     <string name="info_oque1">Lixo eletrônico é todo e qualquer lixo que se deriva de eletrônicos: geladeiras e freezers, microondas, cafeteiras, ventiladores, televisões, celulares, entre outros</string>
+    <string name="info_oque2">Os resíduos eletrônicos podem incluir elementos prejudiciais, como mercúrio, chumbo, cádmio e outros metais tóxicos, além de plásticos e outros materiais.</string>
     <string name="info_ondImpac">Por conta de grande parte do lixo eletrônico conter muito metal pesado, acaba afetando diretamente na saúde pública, podendo contaminar o solo, fauna e flora, e até mesmo diminuir o tempo de vida de um aterro sanitário.</string>
+    <string name="info_ondImpac2"> Além disso, a perda de recursos valiosos nos eletrônicos, juntamente com as emissões de gases de efeito estufa durante seu ciclo de vida, contribui para problemas ambientais e climáticos. Condições sociais desafiadoras surgem devido à exposição de trabalhadores em locais não regulamentados. A segurança cibernética também é uma preocupação, pois o descarte inadequado pode expor informações sensíveis.</string>
     <string name="info_comoImpac">O Brasil é o quinto maior produtor de lixo eletrônico do mundo, com China, India, Japão e Estados Unidos na frente, e milhares de pessoas nem sabem qual o efeito do lixo eletronico no meio ambiente, devido à falta de informação.</string>
+    <string name="info_comoImpac3"> A gestão inadequada também implica na perda de valiosos recursos e contribui para emissões de gases de efeito estufa, agravando os impactos das mudanças climáticas. A implementação de práticas responsáveis de reciclagem é essencial para diminuir esses impactos.</string>
     <string name="info_comoImpac2">Eles podem impactar nos Danos Ambientais, egotamento de matéria prima, problemas de saúde, além de ser um risco a segurança e privacidade.</string>
     <string name="info_desc">Para o descarte e reciclagem corretos desse tipo de lixo, é necessário:</string>
-    <string name="info_desc2"> -apagar seus dados, caso sejam lixos como celulares ou componentes de computador;</string>
-    <string name="info_desc3"> -procurar o fabricante, pois a Politica Nacional de Resíduos Sólidos diz que a empresa fabricante é responsável pelo descarte de lixo eletronico, assim, sabendo a maneira correta de como descartar os devidos produtos;</string>
-    <string name="info_desc4"> -procurar locais de coleta, existem diversos locais que marcam dias para coletar esses tipos de lixo em massa.</string>
+    <string name="info_desc2"> - Apagar seus dados, caso sejam lixos como celulares ou componentes de computador;</string>
+    <string name="info_desc3"> - Procurar o fabricante, pois a Politica Nacional de Resíduos Sólidos diz que a empresa fabricante é responsável pelo descarte de lixo eletronico, assim, sabendo a maneira correta de como descartar os devidos produtos;</string>
+    <string name="info_desc4"> - Procurar locais de coleta, existem diversos locais que marcam dias para coletar esses tipos de lixo em massa.</string>
     <string name="LocalDesc2">Sobreira - Reciclagem de lixo eletrônico</string>
     <string name="NomeUsu">Insira seu nome:</string>
     <string name="opção">Caso deseje mandar um email para outra organização, clique aqui:</string>
-    <string name="curiosidade1">O lixo eletrônico, como celulares e computadores antigos, contém materiais valiosos que podem ser reciclados, reduzindo o impacto ambiental.</string>
-    <string name="curiosidade2"> Ele contém substâncias tóxicas, como mercúrio e chumbo, prejudiciais ao meio ambiente e à saúde humana.</string>
-    <string name="curiosidade3">Existem convenções internacionais para controlar o movimento de resíduos eletrônicos entre países.</string>
+    <string name="curiosidade1"> - O lixo eletrônico, como celulares e computadores antigos, contém materiais valiosos que podem ser reciclados, reduzindo o impacto ambiental.</string>
+    <string name="curiosidade2"> - Ele contém substâncias tóxicas, como mercúrio e chumbo, prejudiciais ao meio ambiente e à saúde humana.</string>
+    <string name="curiosidade3"> - Existem convenções internacionais para controlar o movimento de resíduos eletrônicos entre países.</string>
     <string name="ligação">Ou clique aqui para ligar para marcar sua coleta:</string>
     <string name="ligar">Ligar</string>
     <string name="ponto_mensagem">Encontre os pontos de descarte de lixo tecnológico mais próximos de você!</string>
