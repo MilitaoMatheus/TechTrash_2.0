@@ -11,7 +11,7 @@
     <View
         android:id="@+id/view3"
         android:layout_width="364dp"
-        android:layout_height="822dp"
+        android:layout_height="773dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="13dp"
@@ -20,7 +20,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imgCircle6"
@@ -28,21 +29,24 @@
         android:layout_height="259dp"
         android:layout_marginStart="73dp"
         android:layout_marginEnd="73dp"
-        android:layout_marginBottom="720dp"
+        android:layout_marginBottom="672dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/baseline_circle_24" />
+        app:srcCompat="@drawable/baseline_circle_24"
+        tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck,VisualLintBounds" />
 
     <TextView
-        android:id="@+id/txtCuriosidades"
-        android:layout_width="211dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="91dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="91dp"
-        android:layout_marginBottom="792dp"
+        android:id="@+id/textView3"
+        android:layout_width="157dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="729dp"
+        android:contentDescription="@string/content_description"
         android:fontFamily="@font/poppins_light"
         android:text="@string/curiosidades"
         android:textAlignment="center"
@@ -51,57 +55,66 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck,TextContrastCheck" />
 
-    <TextView
-        android:id="@+id/txtCuriosidade1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="146dp"
-        android:layout_marginBottom="560dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/curiosidade1"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txtCuriosidade2"
-        android:layout_width="340dp"
-        android:layout_height="116dp"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="424dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="311dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/curiosidade2"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"
+    <LinearLayout
+        android:layout_width="341dp"
+        android:layout_height="651dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="17dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" >
 
-    <TextView
-        android:id="@+id/txtCuriosidade3"
-        android:layout_width="337dp"
-        android:layout_height="122dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="692dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="37dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/curiosidade3"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/txtCuriosidade"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/intro_curiosidades"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/txtCuriosidade1"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/curiosidade1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCuriosidade2"
+            android:layout_width="340dp"
+            android:layout_height="116dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/curiosidade2"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/txtCuriosidade3"
+            android:layout_width="337dp"
+            android:layout_height="122dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/curiosidade3"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

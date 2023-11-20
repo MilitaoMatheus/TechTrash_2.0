@@ -11,7 +11,7 @@
     <View
         android:id="@+id/view2"
         android:layout_width="364dp"
-        android:layout_height="822dp"
+        android:layout_height="773dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="13dp"
@@ -19,10 +19,9 @@
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:ignore="VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imgCircle2"
@@ -30,34 +29,40 @@
         android:layout_height="259dp"
         android:layout_marginStart="73dp"
         android:layout_marginEnd="73dp"
-        android:layout_marginBottom="720dp"
+        android:layout_marginBottom="672dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/baseline_circle_24" />
+        app:srcCompat="@drawable/baseline_circle_24"
+        tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck,VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imgLogoMenu2"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="153dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="153dp"
         android:layout_marginBottom="761dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/baseline_recycling_24" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/baseline_recycling_24"
+        tools:ignore="ImageContrastCheck" />
 
     <LinearLayout
-        android:layout_width="362dp"
-        android:layout_height="709dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="129dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="13dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="17dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,39 +71,46 @@
 
         <TextView
             android:id="@+id/txtPontoMensagem"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
             android:text="@string/ponto_mensagem"
             android:textColor="@color/black"
-            android:textSize="22sp" />
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/txtPontoMensagem2"
-            android:layout_width="266dp"
-            android:layout_height="85dp"
-            android:layout_marginLeft="45dp"
-            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
             android:text="@string/mensagem_aviso"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Olá"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="373dp"
-            android:layout_height="205dp"
+            android:layout_width="match_parent"
+            android:layout_height="283dp"
             app:srcCompat="@drawable/mapa" />
 
         <Button
             android:id="@+id/btnloc"
-            android:layout_width="197dp"
-            android:layout_height="80dp"
-            android:layout_marginLeft="80dp"
-            android:layout_marginTop="150dp"
+            android:layout_width="177dp"
+            android:layout_height="85dp"
             android:backgroundTint="@color/green"
+            android:onClick="pegarLocalização"
             android:text="@string/app_ir7"
-            android:textSize="30sp" />
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:translationX="80dp" />
 
     </LinearLayout>
 

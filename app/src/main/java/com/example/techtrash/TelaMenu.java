@@ -47,7 +47,7 @@ public class TelaMenu extends AppCompatActivity {
         startActivity(intent);
     }
     public void IrCuriosidades(View view){
-        Intent intent = new Intent(this, Tela_OndeImapc.class);
+        Intent intent = new Intent(this, Curiosidades.class);
         startActivity(intent);
     }
     public void IrImpactos(View view){
@@ -55,15 +55,15 @@ public class TelaMenu extends AppCompatActivity {
         startActivity(intent);
     }
     public void IrLugarImpacto(View view){
-        Intent intent = new Intent(this, DescarteReutilizacao.class);
+        Intent intent = new Intent(this, Tela_OndeImapc.class);
         startActivity(intent);
     }
     public void IrDescarte(View view) {
-        Intent intent = new Intent(this, TelaDeLocalizacao.class);
+        Intent intent = new Intent(this, DescarteReutilizacao.class);
         startActivity(intent);
     }
     public void IrContato (View view){
-        Intent intent = new Intent(this, Curiosidades.class);
+        Intent intent = new Intent(this, TelaDeLocalizacao.class);
         startActivity(intent);
     }
     public void IrPontoDesc (View view){

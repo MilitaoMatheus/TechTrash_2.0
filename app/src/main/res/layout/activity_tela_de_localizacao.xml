@@ -12,7 +12,7 @@
     <View
         android:id="@+id/view8"
         android:layout_width="364dp"
-        android:layout_height="822dp"
+        android:layout_height="773dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="13dp"
@@ -20,10 +20,9 @@
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:ignore="VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imgCircle8"
@@ -31,126 +30,105 @@
         android:layout_height="259dp"
         android:layout_marginStart="73dp"
         android:layout_marginEnd="73dp"
-        android:layout_marginBottom="720dp"
+        android:layout_marginBottom="672dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/baseline_circle_24" />
+        app:srcCompat="@drawable/baseline_circle_24"
+        tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck,VisualLintBounds" />
 
     <TextView
-        android:id="@+id/txtContato"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="126dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="127dp"
-        android:layout_marginBottom="779dp"
+        android:id="@+id/textView7"
+        android:layout_width="157dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="729dp"
+        android:contentDescription="@string/content_description"
         android:fontFamily="@font/poppins_light"
         android:text="@string/Contato"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/btnIrDescarte"
-        android:layout_width="363dp"
-        android:layout_height="127dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="208dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="516dp"
-        android:onClick="Pesquisar"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/irdescarte__1_" />
+        tools:ignore="TextSizeCheck,TextContrastCheck" />
 
-    <TextView
-        android:id="@+id/txtIrDescarte"
-        android:layout_width="364dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="145dp"
-        android:layout_marginEnd="13dp"
-        android:layout_marginBottom="647dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/LocalDesc2"
-        android:textAlignment="center"
-        android:textColor="@color/green"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txtMandarEmail"
-        android:layout_width="173dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="110dp"
-        android:layout_marginTop="372dp"
-        android:layout_marginEnd="110dp"
-        android:layout_marginBottom="434dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/MandarEmail"
-        android:textColor="@color/green"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/btMandarEmail"
-        android:layout_width="359dp"
-        android:layout_height="133dp"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="417dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="301dp"
-        android:onClick="EnviarEmail"
+    <LinearLayout
+        android:layout_width="341dp"
+        android:layout_height="651dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="17dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mandaremail" />
+        tools:ignore="MissingConstraints">
 
-    <TextView
-        android:id="@+id/txtLigar"
-        android:layout_width="363dp"
-        android:layout_height="81dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="585dp"
-        android:layout_marginEnd="13dp"
-        android:layout_marginBottom="185dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/ligar"
-        android:textAlignment="center"
-        android:textColor="@color/green"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/txtIrDescarte"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/LocalDesc2"
+            android:textAlignment="center"
+            android:textColor="#43A047"
+            android:textSize="24sp"
+            tools:ignore="TextSizeCheck" />
 
-    <ImageButton
-        android:id="@+id/imgFazerLigacao"
-        android:layout_width="364dp"
-        android:layout_height="123dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="666dp"
-        android:layout_marginEnd="13dp"
-        android:layout_marginBottom="62dp"
-        android:onClick="Ligar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fazerliga__o" />
+        <ImageButton
+            android:id="@+id/btnIrDescarte"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:onClick="Pesquisar"
+            app:srcCompat="@drawable/irdescarte__1_"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,UsingOnClickInXml,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/txtMandarEmail"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/MandarEmail"
+            android:textAlignment="center"
+            android:textColor="#43A047"
+            android:textSize="24sp"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/btMandarEmail"
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:onClick="EnviarEmail"
+            app:srcCompat="@drawable/mandaremail"
+            tools:ignore="ContentDescription,UsingOnClickInXml,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/txtLigar"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/ligar"
+            android:textAlignment="center"
+            android:textColor="#43A047"
+            android:textSize="24sp"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/imgFazerLigacao"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:onClick="Ligar"
+            app:srcCompat="@drawable/fazerliga__o"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,UsingOnClickInXml,ImageContrastCheck" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

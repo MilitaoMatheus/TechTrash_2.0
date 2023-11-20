@@ -11,7 +11,7 @@
     <View
         android:id="@+id/view"
         android:layout_width="364dp"
-        android:layout_height="822dp"
+        android:layout_height="773dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="13dp"
@@ -20,7 +20,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imgCircle"
@@ -28,30 +29,36 @@
         android:layout_height="259dp"
         android:layout_marginStart="73dp"
         android:layout_marginEnd="73dp"
-        android:layout_marginBottom="720dp"
+        android:layout_marginBottom="672dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/baseline_circle_24" />
+        app:srcCompat="@drawable/baseline_circle_24"
+        tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck,VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imgLogoMenu"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="153dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="153dp"
         android:layout_marginBottom="761dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/baseline_recycling_24" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/baseline_recycling_24"
+        tools:ignore="ImageContrastCheck" />
 
     <ScrollView
         android:layout_width="364dp"
-        android:layout_height="707dp"
+        android:layout_height="655dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="131dp"
         android:layout_marginEnd="13dp"
@@ -71,9 +78,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginBottom="10dp"
+                android:importantForAccessibility="no"
                 android:onClick="IrOquee"
                 android:paddingStart="2dp"
-                android:src="@drawable/o_que__" />
+                android:src="@drawable/o_que__"
+                tools:ignore="ImageContrastCheck,RtlSymmetry,SpeakableTextPresentCheck,UsingOnClickInXml" />
 
             <ImageButton
                 android:id="@+id/imgCuriosidades"
@@ -82,7 +91,8 @@
                 android:layout_marginBottom="10dp"
                 android:onClick="IrCuriosidades"
                 android:paddingTop="10dp"
-                android:src="@drawable/curiosidades1" />
+                android:src="@drawable/curiosidades1"
+                tools:ignore="ContentDescription,ImageContrastCheck,UsingOnClickInXml,SpeakableTextPresentCheck" />
 
             <ImageButton
                 android:id="@+id/imgComoImpac"
@@ -90,7 +100,8 @@
                 android:layout_height="100dp"
                 android:layout_marginBottom="10dp"
                 android:onClick="IrImpactos"
-                android:src="@drawable/impactos" />
+                android:src="@drawable/impactos"
+                tools:ignore="ContentDescription,UsingOnClickInXml,SpeakableTextPresentCheck,ImageContrastCheck" />
 
             <ImageButton
                 android:id="@+id/imgOndeImpac"
@@ -98,7 +109,8 @@
                 android:layout_height="100dp"
                 android:layout_marginBottom="10dp"
                 android:onClick="IrLugarImpacto"
-                android:src="@drawable/ondeimpactam" />
+                android:src="@drawable/ondeimpactam"
+                tools:ignore="ContentDescription,ImageContrastCheck,SpeakableTextPresentCheck,UsingOnClickInXml" />
 
             <ImageButton
                 android:id="@+id/imgDesc"
@@ -106,23 +118,28 @@
                 android:layout_height="100dp"
                 android:layout_marginBottom="10dp"
                 android:onClick="IrDescarte"
-                android:src="@drawable/lugar" />
+                android:src="@drawable/lugar"
+                tools:ignore="ContentDescription,ImageContrastCheck,SpeakableTextPresentCheck,UsingOnClickInXml" />
 
             <ImageButton
                 android:id="@+id/imgContato"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginBottom="10dp"
+                android:importantForAccessibility="no"
                 android:onClick="IrContato"
-                android:src="@drawable/contato" />
+                android:src="@drawable/contato"
+                tools:ignore="UsingOnClickInXml,ImageContrastCheck" />
 
             <ImageButton
                 android:id="@+id/imgSensor"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginBottom="10dp"
+                android:importantForAccessibility="no"
                 android:onClick="IrPontoDesc"
-                android:src="@drawable/descrapido" />
+                android:src="@drawable/descrapido"
+                tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck,UsingOnClickInXml" />
         </LinearLayout>
     </ScrollView>
 

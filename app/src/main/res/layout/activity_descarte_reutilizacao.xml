@@ -11,7 +11,7 @@
     <View
         android:id="@+id/view7"
         android:layout_width="364dp"
-        android:layout_height="822dp"
+        android:layout_height="773dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="13dp"
@@ -19,10 +19,9 @@
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        tools:ignore="VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imgCircle7"
@@ -30,96 +29,89 @@
         android:layout_height="259dp"
         android:layout_marginStart="73dp"
         android:layout_marginEnd="73dp"
-        android:layout_marginBottom="720dp"
+        android:layout_marginBottom="672dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/baseline_circle_24" />
+        app:srcCompat="@drawable/baseline_circle_24"
+        tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck,VisualLintBounds" />
 
     <TextView
-        android:id="@+id/txtDescarte"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="119dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="120dp"
-        android:layout_marginBottom="779dp"
+        android:id="@+id/textView6"
+        android:layout_width="157dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="729dp"
+        android:contentDescription="@string/content_description"
         android:fontFamily="@font/poppins_light"
         android:text="@string/app_descarte"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="34sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck,TextContrastCheck" />
 
-    <TextView
-        android:id="@+id/txtDescarte1"
-        android:layout_width="344dp"
-        android:layout_height="88dp"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="131dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="632dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/info_desc"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"
+    <LinearLayout
+        android:layout_width="341dp"
+        android:layout_height="651dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="17dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" >
 
-    <TextView
-        android:id="@+id/txtDescarte2"
-        android:layout_width="334dp"
-        android:layout_height="112dp"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="239dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="500dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/info_desc2"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/txtDescarte1"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/info_desc"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
 
-    <TextView
-        android:id="@+id/txtDescarte3"
-        android:layout_width="328dp"
-        android:layout_height="137dp"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="593dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="121dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/info_desc4"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/txtDescarte2"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/info_desc2"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            tools:ignore="TextSizeCheck" />
 
-    <TextView
-        android:id="@+id/txtDescarte4"
-        android:layout_width="333dp"
-        android:layout_height="227dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="351dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="273dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/info_desc3"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/txtDescarte3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/info_desc4"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/txtDescarte4"
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/info_desc3"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

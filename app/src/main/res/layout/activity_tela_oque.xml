@@ -11,7 +11,7 @@
     <View
         android:id="@+id/view4"
         android:layout_width="364dp"
-        android:layout_height="822dp"
+        android:layout_height="773dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="13dp"
@@ -20,7 +20,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imgCircle3"
@@ -28,79 +29,76 @@
         android:layout_height="259dp"
         android:layout_marginStart="73dp"
         android:layout_marginEnd="73dp"
-        android:layout_marginBottom="720dp"
+        android:layout_marginBottom="672dp"
+        android:contentDescription="@string/content_description"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/baseline_circle_24" />
+        app:srcCompat="@drawable/baseline_circle_24"
+        tools:ignore="ImageContrastCheck,VisualLintBounds" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="157dp"
         android:layout_height="48dp"
         android:layout_marginStart="118dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="118dp"
-        android:layout_marginBottom="787dp"
+        android:layout_marginBottom="729dp"
+        android:contentDescription="@string/content_description"
         android:fontFamily="@font/poppins_light"
         android:text="@string/app_oquee"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txtInfoOque"
-        android:layout_width="363dp"
-        android:layout_height="144dp"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="139dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="568dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/info_oque1"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="324dp"
-        android:layout_height="232dp"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="283dp"
-        android:layout_marginEnd="35dp"
-        android:layout_marginBottom="336dp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/lixo_eletronico1" />
+        tools:ignore="TextSizeCheck,TextContrastCheck" />
 
-    <TextView
-        android:id="@+id/txtInfoOque2"
-        android:layout_width="340dp"
-        android:layout_height="153dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="529dp"
-        android:layout_marginEnd="23dp"
-        android:layout_marginBottom="169dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/info_oque2"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"
+    <LinearLayout
+        android:layout_width="341dp"
+        android:layout_height="651dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="17dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtInfoOque"
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/info_oque1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgLixo"
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/content_description"
+            app:srcCompat="@drawable/lixo_eletronico1" />
+
+        <TextView
+            android:id="@+id/txtInfoOque2"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/info_oque2"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

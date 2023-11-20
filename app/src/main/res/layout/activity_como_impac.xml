@@ -12,7 +12,7 @@
     <View
         android:id="@+id/view5"
         android:layout_width="364dp"
-        android:layout_height="822dp"
+        android:layout_height="773dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="13dp"
@@ -20,10 +20,9 @@
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:ignore="VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imgCircle4"
@@ -31,82 +30,79 @@
         android:layout_height="259dp"
         android:layout_marginStart="73dp"
         android:layout_marginEnd="73dp"
-        android:layout_marginBottom="720dp"
+        android:layout_marginBottom="672dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/baseline_circle_24" />
+        app:srcCompat="@drawable/baseline_circle_24"
+        tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck,VisualLintBounds" />
 
     <TextView
-        android:id="@+id/txtImpactos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="112dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="113dp"
-        android:layout_marginBottom="783dp"
+        android:id="@+id/textView5"
+        android:layout_width="157dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="729dp"
+        android:contentDescription="@string/content_description"
         android:fontFamily="@font/poppins_light"
         android:text="@string/app_comoimpac"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="32sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck,TextContrastCheck" />
 
-    <TextView
-        android:id="@+id/txtImpacto1"
-        android:layout_width="347dp"
-        android:layout_height="232dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="131dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="488dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/info_comoImpac"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"
+    <LinearLayout
+        android:layout_width="341dp"
+        android:layout_height="651dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="17dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" >
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="352dp"
-        android:layout_height="162dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="377dp"
-        android:layout_marginEnd="11dp"
-        android:layout_marginBottom="312dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/info_comoImpac2"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/txtImpacto1"
+            android:layout_width="match_parent"
+            android:layout_height="186dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/info_comoImpac"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/txtImpacto3"
-        android:layout_width="351dp"
-        android:layout_height="285dp"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="550dp"
-        android:layout_marginEnd="13dp"
-        android:layout_marginBottom="16dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/info_comoImpac3"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="354dp"
+            android:layout_height="140dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/info_comoImpac2"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck,VisualLintBounds" />
+
+        <TextView
+            android:id="@+id/txtImpacto3"
+            android:layout_width="351dp"
+            android:layout_height="285dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/info_comoImpac3"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck,VisualLintBounds" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
