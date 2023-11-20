@@ -14,19 +14,17 @@ import java.net.URLEncoder;
 
 public class TelaDeLocalizacao extends AppCompatActivity {
 
-    ImageButton btnvoltarloc1;
-    Button btnloc1;
-    Button btnweb;
-    Button btnligar;
+    ImageButton btnIrDescarte;
+    ImageButton btnMandarEmail;
+    ImageButton btnFazerLigacao;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_de_localizacao);
 
-        btnvoltarloc1 = (ImageButton) findViewById(R.id.btnvoltarloc1);
-        btnloc1 = (Button) findViewById(R.id.btnloc1);
-        btnweb = (Button) findViewById(R.id.btnweb);
-        btnligar = (Button) findViewById(R.id.btnligar);
+        btnIrDescarte = (ImageButton) findViewById(R.id.btnIrDescarte);
+        btnMandarEmail = (ImageButton) findViewById(R.id.btMandarEmail);
+        btnFazerLigacao = (ImageButton) findViewById(R.id.imgFazerLigacao);
     }
 
     public void Pesquisar (View view) {
@@ -42,13 +40,9 @@ public class TelaDeLocalizacao extends AppCompatActivity {
         it.setData(uri);
         startActivity(Intent.createChooser(it, "Enviar Email"));
     }
-    public void Ligar (View view){
+    public void Ligar (View view) {
         Uri uri = Uri.parse("tel:(11) 3333-2135");
         Intent it = new Intent(Intent.ACTION_DIAL, uri);
         startActivity(it);
-    }
-    public void voltar(View view){
-        Intent intent = new Intent(this, TelaMenu.class);
-        startActivity(intent);
     }
 }

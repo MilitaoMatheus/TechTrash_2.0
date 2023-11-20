@@ -70,13 +70,17 @@
     <string name="info_desc3"> - Procurar o fabricante, pois a Politica Nacional de Resíduos Sólidos diz que a empresa fabricante é responsável pelo descarte de lixo eletronico, assim, sabendo a maneira correta de como descartar os devidos produtos;</string>
     <string name="info_desc4"> - Procurar locais de coleta, existem diversos locais que marcam dias para coletar esses tipos de lixo em massa.</string>
     <string name="LocalDesc2">Sobreira - Reciclagem de lixo eletrônico</string>
+    <string name="Contato">Contato</string>
     <string name="NomeUsu">Insira seu nome:</string>
-    <string name="opção">Caso deseje mandar um email para outra organização, clique aqui:</string>
+    <string name="MandarEmail">Mandar Email</string>
     <string name="curiosidade1"> - O lixo eletrônico, como celulares e computadores antigos, contém materiais valiosos que podem ser reciclados, reduzindo o impacto ambiental.</string>
     <string name="curiosidade2"> - Ele contém substâncias tóxicas, como mercúrio e chumbo, prejudiciais ao meio ambiente e à saúde humana.</string>
     <string name="curiosidade3"> - Existem convenções internacionais para controlar o movimento de resíduos eletrônicos entre países.</string>
     <string name="ligação">Ou clique aqui para ligar para marcar sua coleta:</string>
-    <string name="ligar">Ligar</string>
+    <string name="ligar">Fazer uma ligação para agendar sua coleta</string>
     <string name="ponto_mensagem">Encontre os pontos de descarte de lixo tecnológico mais próximos de você!</string>
     <string name="mensagem_aviso">Para poder usar esse recurso, será necessário permitir o uso da localização!</string>
+    <string name="Colaboradores">Criadores do Aplicativo:</string>
+    <string name="Colaborador1"> Matheus Militão da Silva</string>
+    <string name="Colaborador2"> Matheus Gama Russi</string>
 </resources>
