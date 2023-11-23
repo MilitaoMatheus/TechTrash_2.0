@@ -86,4 +86,6 @@
     <string name="Colaborador2"> Matheus Gama Russi</string>
 
     <string name="content_description"></string>
+
+    <string name="location">Localização atual: \n Latitude: \n Longitude: </string>
 </resources>

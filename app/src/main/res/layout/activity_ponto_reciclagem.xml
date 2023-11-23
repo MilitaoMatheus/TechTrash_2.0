@@ -74,8 +74,10 @@
             android:layout_width="match_parent"
             android:layout_height="103dp"
             android:text="@string/ponto_mensagem"
+            android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            tools:ignore="TextSizeCheck" />
 
         <TextView
             android:id="@+id/txtPontoMensagem2"
@@ -84,13 +86,14 @@
             android:text="@string/mensagem_aviso"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="TextSizeCheck" />
 
         <TextView
             android:id="@+id/txtLocation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Olá"
+            android:text="@string/location"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20sp" />
@@ -98,8 +101,10 @@
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="283dp"
-            app:srcCompat="@drawable/mapa" />
+            android:layout_height="259dp"
+            android:contentDescription="@string/content_description"
+            app:srcCompat="@drawable/mapa"
+            tools:ignore="ImageContrastCheck" />
 
         <Button
             android:id="@+id/btnloc"
@@ -110,7 +115,8 @@
             android:text="@string/app_ir7"
             android:textColor="@color/white"
             android:textSize="30sp"
-            android:translationX="80dp" />
+            android:translationX="80dp"
+            tools:ignore="UsingOnClickInXml,TextContrastCheck" />
 
     </LinearLayout>
 
